@@ -129,7 +129,7 @@ plt.tight_layout()
 plt.show()
 ```
 <p align="center">
-  <img src="ClusteringResult.png" width="420">
+  <img src="ClusteringResult.png" width="720">
 </p>
 ---
 
