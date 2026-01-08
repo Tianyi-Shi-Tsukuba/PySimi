@@ -1,5 +1,7 @@
 # PySimi
-![Logo](LOGO.jpg)
+<p align="center">
+  <img src="LOGO.jpg" width="220">
+</p>
 
 PySimi is a Python toolkit for constructing similarity matrices and applying them to
 **spectral clustering** and **dimensionality reduction**.
