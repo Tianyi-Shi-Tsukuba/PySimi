@@ -1,4 +1,5 @@
 # PySimi
+![(LOGO.jpg)
 
 PySimi is a Python toolkit for constructing similarity matrices and applying them to
 **spectral clustering** and **dimensionality reduction**.
