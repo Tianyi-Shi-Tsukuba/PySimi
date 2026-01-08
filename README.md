@@ -128,7 +128,9 @@ for ax in axes[len(methods_with_gt):]:
 plt.tight_layout()
 plt.show()
 ```
-
+<p align="center">
+  <img src="ClusteringResult.png" width="420">
+</p>
 ---
 
 ### 6. t-SNE visualization on similarity matrices
