@@ -165,7 +165,9 @@ for ax in axes[len(methods_with_gt):]:
 plt.tight_layout()
 plt.show()
 ```
-
+<p align="center">
+  <img src="ReductionResult.png" width="720">
+</p>
 ---
 
 ## Notes
