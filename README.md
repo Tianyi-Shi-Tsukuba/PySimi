@@ -169,8 +169,6 @@ plt.show()
 - **Import name**: `pysimi`
 - The similarity matrix construction is modular and can be easily extended
   with custom similarity definitions.
-- PySimi is designed to support benchmarking and methodological research
-  in clustering and representation learning.
 
 ---
 
