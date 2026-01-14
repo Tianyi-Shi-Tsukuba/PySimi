@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "pysimi-toolkit"
+version = "0.1.4"
+description = "PySimi: a unified framework for similarity matrix construction"
+readme = "README.md"
+requires-python = ">=3.9"
+
+authors = [
+  { name = "Tianyi Shi", email="s2430153@u.tsukuba.ac.jp" }
+]
+
+license = { file = "LICENSE" }
+
+keywords = [
+  "similarity matrix",
+  "spectral clustering",
+  "dimensionality reduction"
+]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+dependencies = [
+  "numpy>=1.20",
+  "scipy>=1.7",
+  "scikit-learn>=1.0",
+  "pandas>=1.3"
+]
+
+
+[project.urls]
+Homepage = "https://github.com/Tianyi-Shi-Tsukuba/PySimi"
+Repository = "https://github.com/Tianyi-Shi-Tsukuba/PySimi"
+Issues = "https://github.com/Tianyi-Shi-Tsukuba/PySimi"
+
+
+[tool.setuptools]
+include-package-data = true
+
+
+[tool.setuptools.packages.find]
+where = ["."]
