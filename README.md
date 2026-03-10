@@ -166,6 +166,16 @@ plt.show()
 </p>
 ---
 
+## Web Demo
+
+PySimi also provides a lightweight **web-based application** for interactive analysis.
+Users can upload datasets, select similarity computation methods, and visualize
+clustering or dimensionality-reduction results directly in the browser.
+
+Try the online demo here:
+
+👉 https://7fe957cf-223a-4d97-bcac-e9cb26fe4757.plotly.app
+
 ## Notes
 
 - **PyPI package name**: `pysimi-toolkit`
